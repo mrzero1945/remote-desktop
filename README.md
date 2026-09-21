@@ -1,6 +1,6 @@
 # Remote Desktop
 
-![Remote Desktop](branding/preview/logo-on-dark.png)
+![Remote Desktop](assets/preview/logo-on-dark.png)
 
 > Stream your Linux X11 desktop to your phone — and control it with your
 > fingers. A self-contained system: a UDP server that captures and H.264-encodes
@@ -67,7 +67,7 @@ The wire format is documented in [`server/src/protocol.h`](server/src/protocol.h
 | `server/`          | C++ UDP server: X11 capture, H.264 encoder, UDP transport (FEC+ARQ), XTest input handler |
 | `android/`         | Android client (Java): UDP + reassembly, `MediaCodec` decode, touchpad/keyboard UI |
 | `desktop-viewer/`  | Minimal SDL2 + `libavcodec` client that talks the same wire protocol      |
-| `branding/`        | Inkscape SVG brand assets: app icon, logo lockups (dark/light), colour palette |
+| `assets/`          | Inkscape SVG brand assets: app icon, logo lockups (dark/light), colour palette |
 
 ## Requirements
 
@@ -121,7 +121,7 @@ cmake --build desktop-viewer/build             # build/desktop_viewer
 
 ## Brand
 
-The project ships with an editable **Inkscape SVG** brand kit in [`branding/`](branding/):
+The project ships with an editable **Inkscape SVG** brand kit in [`assets/`](assets/):
 
 - `remote-desktop-icon.svg` — app icon (monitor + cast glyph on navy, cyan→blue accent)
 - `remote-desktop-logo.svg` / `remote-desktop-logo-light.svg` — horizontal wordmark lockups
