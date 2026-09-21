@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Remote Desktop</string>
+    <string name="ip_hint">Server IP</string>
+    <string name="port_hint">Port</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="scan">Scan</string>
+    <string name="scan_results">Server scan results</string>
+    <string name="scan_empty">No servers found</string>
+    <string name="col_ip">IP</string>
+    <string name="col_port">Port</string>
+    <string name="col_status">Status</string>
+    <string name="not_connected">Not connected</string>
+    <string name="left_click">L-Click</string>
+    <string name="right_click">R-Click</string>
+    <string name="keyboard">KB</string>
+    <string name="kb_hint">Type here to send keys to remote (shown only when KB enabled)</string>
+    <string name="fullscreen">⛶</string>
+    <string name="kb_keyboard">⌨</string>
+    <string name="exit_fullscreen">Exit FS</string>
+    <string name="kb_send">Kirim</string>
+    <string name="fec_toggle">FEC</string>
+    <string name="arq_toggle">ARQ</string>
+    <string name="gpu_toggle">GPU</string>
+    <string name="audio_toggle">AUD</string>
+    <string name="ssl_toggle">SSL</string>
+    <string name="log_header">LOG</string>
+</resources>
